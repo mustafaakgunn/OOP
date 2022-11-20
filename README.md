@@ -1,2 +1,2 @@
 # OOP
-OOP in Java.
+OOP & Functional Programming in Java.
