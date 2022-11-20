@@ -6,7 +6,7 @@ public class Main {
         register.randStudent();
 
         // Sorry for polluted-looking if blocks :)
-        // Main purpose in here is Demonstration of Downcasting and Upcasting and Polymorphism.
+        // Main purpose in here is Demonstration of Downcasting-Upcasting and Polymorphism.
 
         // Random selected class is actuate it's behaviours without any runtime casting error caused by
         // Parent to Child casting...
