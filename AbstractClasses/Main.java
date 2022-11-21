@@ -6,10 +6,10 @@ public class Main {
         register.randStudent();
 
         // Sorry for polluted-looking if blocks :)
-        // Main purpose in here is Demonstration of Downcasting and Upcasting and Polymorphism.
+        // Main purpose in here is Usage of Abstraction and also Demonstration of Downcasting, Upcasting and Polymorphism.
 
         // Random selected class is actuate it's behaviours without any runtime casting error caused by
-        // Parent to Child casting...
+        // Parent to Child casting... Student class is a abstract class that have some abstract methods.
 
         if(register.studentToRegister instanceof MasterStudent){
             MasterStudent master = new MasterStudent(1,"student",2015,1990,"science","teacher","thesis");
