@@ -10,10 +10,13 @@ public class Main {
         Random rand = new Random();
 
         // Sorry for polluted-looking if blocks :)
-        // Main purpose in here is Demonstration of Downcasting and Upcasting and Polymorphism.
+        // Main purpose in here is Exception handling, Demonstration of Downcasting and Upcasting and Polymorphism.
 
+        // Exception occurs due to random financial aid amount.
+        
         // Random selected class is actuate it's behaviours without any runtime casting error caused by
         // Parent to Child casting...
+        
 
         if(register.studentToRegister instanceof MasterStudent){
             MasterStudent master = new MasterStudent(1,"student",2015,1990,"science","teacher","thesis", rand.nextInt(15000));
